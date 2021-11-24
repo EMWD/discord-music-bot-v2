@@ -1,0 +1,19 @@
+{
+  "name": "music-bot",
+  "main": "main.js",
+  "author": "EMWD + ZerioDev",
+  "version": "2.0.0",
+  "repository": "https://github.com/EMWD/discord-music-bot-v2.git",
+  "description": "Discord music bot",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8"
+  }
+}
