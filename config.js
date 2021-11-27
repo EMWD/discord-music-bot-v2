@@ -2,7 +2,7 @@ require('dotenv').config()
 
 module.exports = {
     app: {
-        px: '!',
+        px: '1',
         token: process.env.DISCORD_BOT_TOKEN,
         playing: 'by me'
     },
