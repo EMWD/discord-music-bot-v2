@@ -1,8 +1,9 @@
 const { QueryType } = require('discord-player');
+const LangHelper = require('./../../src/helpers.js')
 
 module.exports = {
     name: 'play',
-    aliases: ['p'],
+    aliases: LangHelper.get_all_vars(['p']),
     utilisation: '{prefix}play [song name/URL]',
     voiceChannel: true,
 

@@ -1,6 +1,8 @@
+const LangHelper = require('./../../src/helpers.js')
+
 module.exports = {
     name: 'skip',
-    aliases: ['sk'],
+    aliases: LangHelper.get_all_vars(['sk']),
     utilisation: '{prefix}skip',
     voiceChannel: true,
 

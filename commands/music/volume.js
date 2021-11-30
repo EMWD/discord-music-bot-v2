@@ -1,8 +1,9 @@
 const maxVol = client.config.options.maxVol;
+const LangHelper = require('./../../src/helpers.js')
 
 module.exports = {
     name: 'volume',
-    aliases: ['vol'],
+    aliases: LangHelper.get_all_vars(['vol']),
     utilisation: `{prefix}volume [1-${maxVol}]`,
     voiceChannel: true,
 

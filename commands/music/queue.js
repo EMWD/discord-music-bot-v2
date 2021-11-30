@@ -1,8 +1,9 @@
 const { MessageEmbed } = require('discord.js');
+const LangHelper = require('./../../src/helpers.js')
 
 module.exports = {
     name: 'queue',
-    aliases: ['q'],
+    aliases: LangHelper.get_all_vars(['q']),
     utilisation: '{prefix}queue',
     voiceChannel: true,
 

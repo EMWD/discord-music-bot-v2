@@ -1,6 +1,8 @@
+const LangHelper = require('./../../src/helpers.js')
+
 module.exports = {
     name: 'stop',
-    aliases: ['s'],
+    aliases: LangHelper.get_all_vars(['s']),
     utilisation: '{prefix}stop',
     voiceChannel: true,
 

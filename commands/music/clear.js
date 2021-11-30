@@ -1,6 +1,8 @@
+const LangHelper = require('./../../src/helpers.js')
+
 module.exports = {
     name: 'clear',
-    aliases: ['cq'],
+    aliases: LangHelper.get_all_vars(['cl']),
     utilisation: '{prefix}clear',
     voiceChannel: true,
 

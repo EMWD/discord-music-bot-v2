@@ -1,8 +1,9 @@
 const { MessageEmbed } = require('discord.js');
+const LangHelper = require('./../../src/helpers.js')
 
 module.exports = {
     name: 'help',
-    aliases: ['h'],
+    aliases: LangHelper.get_all_vars(['h']),
     showHelp: false,
 
     execute(client, message, args) {
